@@ -4,10 +4,10 @@ SVM performance and t-SNE result for representations of samples in [Turkish sent
 # VAE
 - `vae_oscar.ipynb` trains [VAE](https://github.com/shentianxiao/text-autoencoders) on a small portion of OSCAR's `unshuffled_deduplicated_tr`. `vae_svm_tsne.ipynb` tests representations in the same way as before.
 # TF-IDF
--
+- `tf-idf.ipynb` implements TF-IDF and provides most successful representations in SVM and t-SNE.
 
 | method | representation space | f1 score |
 | ------------- | ------------- | ------------- |
-| BERTurk | 768-dim | 0.88  |
+| BERTurk | 768-dim | 0.89 |
 | VAE | 128-dim | ? |
-| TD-IDF | ?-dim | ? |
+| TD-IDF | 6945-dim | 0.91 |
