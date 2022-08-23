@@ -10,4 +10,4 @@ SVM performance and t-SNE result for representations of samples in [Turkish sent
 | ------------- | ------------- | ------------- |
 | BERTurk | 768-dim | 0.89 |
 | VAE | 128-dim | ? |
-| TD-IDF | 6945-dim | 0.91 |
+| TF-IDF | 6945-dim | 0.91 |
