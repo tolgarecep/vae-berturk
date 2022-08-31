@@ -9,5 +9,6 @@ SVM performance and t-SNE result for representations of samples in [Turkish sent
 | method | representation space | f1 score |
 | ------------- | ------------- | ------------- |
 | BERTurk | 768-dim | 0.89 |
-| VAE | 128-dim | ? |
+| VAE | 128-dim | 0.73* |
 | TF-IDF | 6945-dim | 0.91 |
+*training stopped after loss of 100
