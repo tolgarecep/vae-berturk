@@ -1,3 +1,8 @@
+- VAE was trained (with different training strategies and three different dim_z settings) on various Turkish datasets that were tokenized with BERTurk tokenizer.
+- Quality of representations VAEs, BERTurk and TF-IDF provided were tested by using them in classification tasks.
+- Results show that the best training strategy is to balance training set size and number of epochs and not increase one while keeping the other low (relative to sizes and numbers that are being played with).
+- Best latent space dimensionality setting for VAE while dealing with Turkish sentences is 128, although the conclusion here might change with the completion of incomplete experiments. 
+
 ## datasets
 **text categorization (dünya, ekonomi, sağlık, spor, kültür, siyaset, teknoloji)**: 3430, 1470; 700x7  
 **sentiment analysis (neg, pos)**: 6000, 2489; 4252+4237  
