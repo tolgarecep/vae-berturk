@@ -21,3 +21,52 @@ vae training: 360/3
 | vae `dim_z=256` | 0.4530612244897959 | 0.6838087585375653 | 0.8586666666666666 | 0.59 | 
 | berturk | 0.8625850340136054 | 0.8782643631980716 | 0.9333333333333333 | 0.9130000000000001 |
 | tf-idf | 0.9108843537414966 `dim_z=46389` | 0.9023704298915227 `dim_z=8792` | 0.882 `dim_z=8119`| 0.954 `dim_z=14190` |
+
+## reconstruction
+### 360/3, dim_z=128, sentiment analysis (neu, neg, pos); 0.866  
+#### training examples
+*Bu sırada bir atlı tarafından öldürüldü.*  
+Bu sırada , bir süre sonra da öldü  
+
+*Albüm "En İyi Reggae Albümü" dalında Grammy ödülünü aldı.*  
+Albümde "The " " adlı şarkıyla " The " " adlı şarkıyla seslendirmiştir
+
+#### test examples
+*Profesyonel kariyerine Torino kulübünde başladı.*  
+Profesyonel kariyerine 2009 yılında ise 2 gol attı  
+
+*Ama daha fazla para lazım olunca kumar oynar.*  
+Ama bu yüzden de de kendi içindeki insanlar vardı  
+
+*Kendiliğinden ışık yayan gök cismi.*  
+İnsanlar arasındaki bir su vardır  
+
+*ürünü yeni sipariş ettim. elime ne zaman ulaşır bilmiyorum, iyi sonuçlar elde edeceğimi umuyorum. fiyatı işlevine göre oldukça uygun. umarım bu üründen memnun kalırım...*  
+) ki bu nedenle de de de , bu nedenle de de de de de de de de de de de de de de de de de de de de de de de de  
+
+*Anadolu Üniversitesi ve Marmara Üniversitesi mezunudur.*  
+İstanbul Üniversitesi , İstanbul Üniversitesi Hukuk Fakültesi ' nde doğdu  
+
+
+### 360/3, `dim_z=128`, text categorization (7); 0.563265306122449  
+#### test examples
+*7 mart tarihine dikkat sosyal medya devi facebook 7 mart tarihinde gerçekleştir ##eceği etkinlik için basın mensuplarına davetiye gönderme ##ye başladı peki bu tarihte ne olacak t ##si 20 00 da yeni _ z ##ela ##nda da gerçekleştirilecek etkinlikte facebook un haber kaynağı nın yeni görünümü paylaş ##ılacak yeni gelecek tek  sütun ##lu tasarım ile yeni türde reklamlar için bir hazırlık olduğuna kesin gözüyle bak ##abiliriz özellikle reklam konusunda son dönemde sıkıntı yaşayan facebook un yeni arama motoru gr ##ap ##h _ se ##arch ün de vereceği ivme ve yeni tasarım ##da olması beklenen büyük fotoğraf kutu ##cuk ##lu tasarım*  
+" C " ) , " C " - 1 ) , " C " - 1 ) , " n " ) , bu nedenle , bu nedenle , bu nedenle , bu  
+
+*salon ve do ##t işbirliğiyle karşınızda iki _ kişilik _ bir _ oyun salon do ##t işbirliğiyle gerçekleştirilen ve salon _ ik ##s ##v de 12 kez sahne ##lenecek olan yeni iki _ kişilik _ bir _ oyun 12 kasım _ pazartesi 21 00 de pr ##öm ##iyer yapıyor karşılaşan tanış ##an bakış ##an şaka ##laşan dokun ##an seviş ##en seven sahip ##lenen öz ##leyen kıskan ##an aldat ##an kandır ##an terk ##eden terk ##ede ##meyen tutun ##an tutun ##amayan unuta ##n ve hatırla ##yan yeniden ve yeniden deney ##en iki kişinin yaşam boyu sürdürdü ##k ##leri bir ilişki oyunu*  
+Örneğin , bu nedenle , bu nedenle , bu nedenle , bu nedenle , bu nedenle , bu nedenle , bu nedenle , bu nedenle , bu nedenle , bu nedenle , bu nedenle  
+
+## interpolation
+### 360/3, `dim_z=128`, sentiment analysis (neu, neg, pos); 0.866  
+#### training examples  
+Albüm ##de " The " " adlı şarkı ##yla " The " " adlı şarkı ##yla seslendir ##miştir  
+Albüm ##ün ilk albümün ##de " The " " adlı şarkı ##yla birlikte seslendir ##miştir  
+Bu albüm ##de ilk kez ilk kez " The " adlı şarkı ##yla birlikte yazdı  
+Bu arada bir süre sonra da ilk kez tekrar çıktı  
+Bu sırada , bir süre sonra da öldü  
+
+Albüm ##de " " " " " " " " " " " " adlı şarkı ##yla " " " " adlı şarkı ##yla seslendir ##miştir  
+Albüm ##de " " " " adlı bir şarkı ##yla " " " " adlı şarkı ##yla başladı   
+Bu albüm , ilk kez ilk kez " The " adlı bir numara oldu  
+Bu sırada , bir süre sonra ilk kez daha fazla oldu  
+Bu sırada , bir süre sonra , II  
