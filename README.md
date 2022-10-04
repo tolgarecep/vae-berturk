@@ -64,14 +64,10 @@ Ama bu yüzden de de kendi içindeki insanlar vardı
 ## interpolation
 ### 360/3, `dim_z=128`, sentiment analysis (neu, neg, pos); 0.866  
 #### training examples  
+**Albüm " En İyi Reg ##ga ##e Albüm ##ü " dalında Gram ##my ödülünü aldı .**
 Albüm ##de " The " " adlı şarkı ##yla " The " " adlı şarkı ##yla seslendir ##miştir  
 Albüm ##ün ilk albümün ##de " The " " adlı şarkı ##yla birlikte seslendir ##miştir  
 Bu albüm ##de ilk kez ilk kez " The " adlı şarkı ##yla birlikte yazdı  
 Bu arada bir süre sonra da ilk kez tekrar çıktı  
 Bu sırada , bir süre sonra da öldü  
-
-Albüm ##de " " " " " " " " " " " " adlı şarkı ##yla " " " " adlı şarkı ##yla seslendir ##miştir  
-Albüm ##de " " " " adlı bir şarkı ##yla " " " " adlı şarkı ##yla başladı   
-Bu albüm , ilk kez ilk kez " The " adlı bir numara oldu  
-Bu sırada , bir süre sonra ilk kez daha fazla oldu  
-Bu sırada , bir süre sonra , II  
+**Bu sırada bir at ##lı tarafından öldürüldü .**
