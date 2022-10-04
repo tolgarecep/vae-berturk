@@ -64,7 +64,7 @@ Ama bu yüzden de de kendi içindeki insanlar vardı
 ## interpolation
 ### 360/3, `dim_z=128`, sentiment analysis (neu, neg, pos); 0.866  
 #### training examples  
-**Albüm " En İyi Reg ##ga ##e Albüm ##ü " dalında Gram ##my ödülünü aldı .**
+**Albüm " En İyi Reg ##ga ##e Albüm ##ü " dalında Gram ##my ödülünü aldı .**  
 Albüm ##de " The " " adlı şarkı ##yla " The " " adlı şarkı ##yla seslendir ##miştir  
 Albüm ##ün ilk albümün ##de " The " " adlı şarkı ##yla birlikte seslendir ##miştir  
 Bu albüm ##de ilk kez ilk kez " The " adlı şarkı ##yla birlikte yazdı  
