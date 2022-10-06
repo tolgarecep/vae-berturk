@@ -3,7 +3,17 @@
 - Results show that the best training strategy is to balance training set size and number of epochs and not increase one while keeping the other low (relative to sizes and numbers that are being played with).
 - Best latent space dimensionality setting for VAE while dealing with Turkish sentences is 128, although the conclusion here might change with the completion of incomplete experiments. 
 
-## datasets
+## experiments
+- `vae.ipynb`: Train VAE models with [shentianxiao/text-autoencoders](https://github.com/shentianxiao/text-autoencoders) for different training strategies and dim_z values.
+- `berturk.ipynb`: Get BERTurk representations for sentences from evaluation datasets. Notebook pops each split list once to get rid of empty strings, and computes for 500 samples at each run to properly work on Google Colab.
+- `tf-idf.ipynb`: Numericalize and represent sentences (in usually high-dimensional vectors) with statistical measure TF-IDF.
+- `berturk_svm.ipynb`: Model BERTurk representations with SVM and tune hyperparameter C.
+- `vae_svm.ipynb`: Get VAE representations and model with SVM.
+
+## VAE training dataset
+Dataset was imported from [turkish-corpus](https://www.kaggle.com/datasets/redrussianarmy/turkish-corpus) and arranged with `tr_corpus.ipynb`. 
+
+## representation evaluation datasets
 **text categorization (dünya, ekonomi, sağlık, spor, kültür, siyaset, teknoloji)**: 3430, 1470; 700x7  
 **sentiment analysis (neg, pos)**: 6000, 2489; 4252+4237  
 **sentiment analysis (neu, neg, pos)**: 5000, 1000; 2715+1698+587  
@@ -28,7 +38,7 @@ vae training: 360/3
 | tf-idf | 0.9108843537414966 `dim_z=46389` | 0.9023704298915227 `dim_z=8792` | 0.882 `dim_z=8119`| 0.954 `dim_z=14190` |
 
 ## reconstruction
-### 360/3, dim_z=128, sentiment analysis (neu, neg, pos); 0.866  
+### 360/3, `dim_z=128`, sentiment analysis (neu, neg, pos); 0.866  
 #### training examples
 *Bu sırada bir atlı tarafından öldürüldü.*  
 Bu sırada , bir süre sonra da öldü  
