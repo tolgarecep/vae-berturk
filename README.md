@@ -25,7 +25,7 @@ Dataset was imported from [turkish-corpus](https://www.kaggle.com/datasets/redru
 | 180K, 6 epochs | 0.4496598639455782 | 0.6753716351948573 | 0.858 | 0.573 |
 | 360K, 3 epochs | 0.563265306122449 | 0.6894335074327039 | 0.866 | 0.637 |
 | 1080K, 1 epoch | 0.42585034013605444 | 0.6801928485335476 | 0.856 | 0.454 |
-| 4320K, 1 epoch | X | X | X | X |
+| 2000K, 1 epoch, `dim_z=256` | 0.689795918367347 | 0.7183607874648453 | 0.8653333333333333 | 0.693 |
 
 ## dim_z comparison
 vae training: 360/3
