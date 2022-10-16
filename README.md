@@ -16,8 +16,8 @@ Dataset was imported from [turkish-corpus](https://www.kaggle.com/datasets/redru
 ## representation evaluation datasets
 **text categorization (dünya, ekonomi, sağlık, spor, kültür, siyaset, teknoloji)**: 3430, 1470; 700x7  
 **sentiment analysis (neg, pos)**: 6000, 2489; 4252+4237  
-**sentiment analysis (neu, neg, pos)**: 5000, 1000; 2715+1698+587  
-**ticaret**: 5000, 1000; 6x1000
+**sentiment analysis (neu, neg, pos)**: 5000, 1500 
+**text categorization (6 categories)**: 5000, 1000; 6x1000
 
 ## training comparison
 | vae training | text categorization (7) | sentiment analysis (binary) | sentiment analysis (neu, neg, pos) | text categorization (6)
@@ -25,7 +25,10 @@ Dataset was imported from [turkish-corpus](https://www.kaggle.com/datasets/redru
 | 180K, 6 epochs | 0.4496598639455782 | 0.6753716351948573 | 0.858 | 0.573 |
 | 360K, 3 epochs | 0.563265306122449 | 0.6894335074327039 | 0.866 | 0.637 |
 | 1080K, 1 epoch | 0.42585034013605444 | 0.6801928485335476 | 0.856 | 0.454 |
+| 2000K, 1 epoch, `dim_z=128` | 0.6891156462585034 | 0.706709521896344 | 0.8646666666666667 | 0.676 |
 | 2000K, 1 epoch, `dim_z=256` | 0.689795918367347 | 0.7183607874648453 | 0.8653333333333333 | 0.693 |
+| 2000K, 1 epoch, `dim_z=512` |  |  |  |  |
+
 
 ## dim_z comparison
 vae training: 360/3
