@@ -16,7 +16,7 @@ Dataset was imported from [turkish-corpus](https://www.kaggle.com/datasets/redru
 ## representation evaluation datasets
 **text categorization (dünya, ekonomi, sağlık, spor, kültür, siyaset, teknoloji)**: 3430, 1470; 700x7  
 **sentiment analysis (neg, pos)**: 6000, 2489; 4252+4237  
-**sentiment analysis (neu, neg, pos)**: 5000, 1500 
+**sentiment analysis (neu, neg, pos)**: 5000, 1500  
 **text categorization (6 categories)**: 5000, 1000; 6x1000
 
 ## training comparison
